@@ -5,7 +5,7 @@ function SearchBar({ artist, song, setArtist, setSong, onSearch }) {
 
   return (
     <>
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center py-10">
         <div className="flex mx-auto gap-4 w-full  max-w-xl flex-col border rounded-4xl">
           <h2 className="text-2xl py-3 text-center">Lyrics Finder App</h2>
           <input
